@@ -1,0 +1,66 @@
+body .container .ball1 {
+  height: 20vh;
+  width: 10vw;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  background-color: red;
+  -webkit-animation-name: sss;
+          animation-name: sss;
+  -webkit-animation-duration: 1000ms;
+          animation-duration: 1000ms;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+body .container .ball2 {
+  height: 20vh;
+  width: 10vw;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  background-color: blue;
+  -webkit-animation-name: sss;
+          animation-name: sss;
+  -webkit-animation-duration: 900ms;
+          animation-duration: 900ms;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+body .container .ball3 {
+  height: 20vh;
+  width: 10vw;
+  border-radius: 50%;
+  margin-bottom: 40px;
+  background-color: yellow;
+  -webkit-animation-name: sss;
+          animation-name: sss;
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes sss {
+  50% {
+    -webkit-transform: translateX(80vw);
+            transform: translateX(80vw);
+  }
+  100% {
+  }
+}
+
+@keyframes sss {
+  50% {
+    -webkit-transform: translateX(80vw);
+            transform: translateX(80vw);
+  }
+  100% {
+  }
+}
+/*# sourceMappingURL=style.css.map */
